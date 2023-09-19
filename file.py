@@ -10,7 +10,7 @@ if df is not None:
     st.table(df.head())
 
 st.subheader("Dealing with images")
-st.image("/Users/HP/Atom IDE/Geeksforgeeks/img.png")
+st.image("img.png")
 
 st.subheader("Dealing with images while uploading")
 img1=st.file_uploader("Upload the image file: ", type=["png","jpeg"])
